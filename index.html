@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>HelpDesk</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Central de Serviços</h1>
+        <span class="material-symbols-outlined">
+            account_circle
+            </span>
+    </div>
+    <div class="principal">
+        <ul>
+            <li>Principal</li>
+            <li><span class="material-symbols-outlined">
+                library_books
+                </span>Base de Conhecimento</li>
+            <li><span class="material-symbols-outlined">
+                travel_explore
+                </span>Novo chamado</li>
+                <div>
+                    <li><span class="material-symbols-outlined">
+                        deskphone
+                        </span>Lista de Chamadas</li><a href="./lista.html"></a>
+                </div>
+                
+               
+        </ul>
+    </div>
+    <div class="chamado">
+        <h2>Chamado: 2719949</h2>
+    </div>
+    <div class="tipos">
+       
+        <label for="produto">Produto: </label>
+        <select name="" id="produto">
+            <option selected>
+                MANUTENÇÃO DE UNIDADES
+            </option>
+            <option>
+                ECCOMERCE-CAMISAS
+            </option>
+            <option>
+                CALCULADORA
+            </option>
+            <option>
+                SNAKE GAME
+            </option>
+        </select>
+        <label for="processo">Processo: </label>
+        <select name="" id="processo">
+            <option>
+                ATENDIMENTO
+            </option>
+            <option>
+                KAUÃ
+            </option>
+            <option>
+                MURILLO
+            </option>
+            <option>
+                FEITOSA
+            </option>
+            <option>
+                FELIPE
+            </option>
+            <option>
+                ARTHUR
+            </option>
+            <option>
+                ANTONIO
+            </option>
+            <option>
+                LUIS
+            </option>
+            <option>
+                MATHEUS
+            </option>
+            <option>
+                PEDRO
+            </option>
+        </select>
+        <label for="modulo">Módulo: </label>
+        <select name="" id="modulo">
+            <option>
+                SERVIÇOS
+            </option>
+            <option>
+                CATÁLOGO
+            </option>
+            <option>
+                VENDAS
+            </option>
+            <option>
+                SEGURANÇA
+            </option>
+            <option>
+                DISPONIBILIDADE
+            </option>
+            <option>
+                OPERAÇÃO
+            </option>
+        </select>
+    </div>
+    <div class="tipos2">
+
+        <div>
+            <label for="c">Caminho: </label>
+            <input placeholder="Manutenção de Equipamentos" type="text" id="c">
+        </div>
+        <div>
+            <label for="n">Natureza: </label>
+            <select name="" id="n">
+                <option>
+                    Evolutiva
+                </option>
+                <option>
+                    Preventiva
+                </option>
+                <option>
+                    Adaptativa
+                </option>
+                <option>
+                    Corretiva
+                </option>
+            </select>
+        </div>
+        <div>
+            <label for="v">Vencimento: </label>
+            <input id="v" placeholder="O vencimento será calculado pelo sistema" type="text">
+        </div>
+    </div>
+    <div class="td">
+        
+        <div>
+            <label for="titulo">Título: </label>
+            <input placeholder="Erro na tela de login" type="text" id="titulo">
+        </div>
+        <div>
+            <label id="descricao">Descrição: </label>
+            <textarea rows="10" cols="150"></textarea>
+        </div>
+    </div>
+    <div class="b">
+        <button id="res">Confirmar</button>
+        <button>Cancelar</button>
+    </div>
+
+</body>
+</html>
